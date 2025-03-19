@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgb(11, 47, 29);
+}
+
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    background-color: rgb(11, 47, 29);
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 15px;
+    gap: 20px;
+}
+
+.paragraphs {
+    width: 80%;
+}
+
+.paragraphA {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.paragraphB {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.paragraphA p, .paragraphB p {
+    max-width: 50%;
+}
+
+.nav-list li {
+    background-color: rgb(11, 47, 29);
+    list-style: none;
+    text-decoration-color: white;
+    padding: 10px;
+    position: relative;
+}
+
+.nav-list li a {
+    background-color: rgb(11, 47, 29);
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li:hover,
+.nav-list li:hover a {
+    background-color: rgb(36, 146, 91);
+}
