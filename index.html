@@ -7,7 +7,7 @@
     <body>
         <nav class="navbar">
             <ul class="nav-list">
-                <li style="background-color: rgb(36, 146, 91);"><a href="aboutMe.html" style="background-color: rgb(36, 146, 91);">About Me</a></li>
+                <li style="background-color: rgb(36, 146, 91);"><a href="index.html" style="background-color: rgb(36, 146, 91);">About Me</a></li>
                 <li><a href="skillAndTechStack.html">Skills and Technology Stack</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="workExperience.html">Work Experience</a></li>
@@ -32,6 +32,17 @@
                 <div class="paragraphA">
                     <p>Etiam justo libero, facilisis a pharetra sit amet, pretium nec magna. Pellentesque gravida congue dolor, ut congue libero pretium vitae. Morbi eget nisl metus. Curabitur sollicitudin commodo turpis, non dignissim felis sollicitudin sit amet. Curabitur blandit ullamcorper tristique. Curabitur ac faucibus massa. Nunc non lacus scelerisque, pulvinar nibh sodales, tristique sapien. Nam semper congue tellus eget vestibulum. Quisque eget odio aliquet, vulputate tellus vel, aliquet libero.</p>
                 </div>
+            </div>
+            <div class="feedback-card">
+                <div class="feedback-header"><h2> Contact Me! </h2></div>
+                <p> Please fill in the below form to reach out to me :)</p>
+                <form class="feedback-body" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="ba781fec-2a95-4cec-a9a3-092acac0aa43">
+                    <input class="feedback-body__name" type="text" name="Name" placeholder="Name" required>
+                    <input class="feedback-body__email" type="email" name="Email" placeholder="Email"required>
+                    <textarea class="feedback-body__message" type="text" name="Message" placeholder="Message" required></textarea>
+                    <button type="submit" class="feedback-body__submit">SEND</button>
+                </form>
             </div>
         </div>
     </body>
